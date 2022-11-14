@@ -1,15 +1,23 @@
-*{
-  padding: 0;
+* {
+  padding: 0px;
   margin: 0;
 }
 
-header{
-  height: 100px;
-}
-
-h1,
-div{
+h1{
   text-align: center;
-  padding-top: 25px;
 }
 
+#localWeather{
+  text-align: center;
+}
+
+#imgHeader {
+align-items: auto;
+width: 100%;
+height: 280px;
+}
+
+#weatherIcon{
+  padding: 0 0 10px 5px;
+  height: 50px;
+}
